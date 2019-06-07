@@ -15,9 +15,9 @@ def handle(msg):
     print 'do chat: %s' % chat_id
     
     if command == naufalante:
-        bot.sendSticker(chat_id, 'CAADAQADJwEAAiSbWAa1_wzLlUwZdwI'
+        bot.sendSticker(chat_id, 'CAADAQADJwEAAiSbWAa1_wzLlUwZdwI')
     elif command == 'aaaa':
-        bot.sendMessage(chat_id, 'aaaaaaaaaaaaaaaaaaaaaaaa'
+        bot.sendMessage(chat_id, 'aaaaaaaaaaaaaaaaaaaaaaaa')
 
 bot = telepot.Bot('TOKEN')
 
